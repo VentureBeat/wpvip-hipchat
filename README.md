@@ -1,18 +1,19 @@
 wpvip-hipchat
 =============
 
-A simple 'mediation' script to convert Deploy Webhooks from WordPress.com VIP to HipChat group messages.
+A simple 'mediation' script to convert Deploy and Commit Webhooks from WordPress.com VIP to HipChat group messages.
 
 
 ## Setup
 
-Just configure the script to add your HipChat group number and API key at the top.
-Upload the script to a server somewhere and then add to the wpcom-meta.php file at the root of your WordPress VIP theme:
+Just configure the scripts to add your HipChat group number and API key at the top.
+Upload the scripts to a server somewhere and then add to the wpcom-meta.php file at the root of your WordPress VIP theme:
 
 ```
 <?php
 /**
- * Deploy Webhook: http://example.com/path/to/endpoint.php
+ * Deploy Webhook: http://example.com/path/to/deploy-webhook.php
+ * Commit Webhook: http://example.com/path/to/commit-webhook.php
  */
 ```
 
