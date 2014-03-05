@@ -1,6 +1,6 @@
 <?php
 /* 
- * WordPress VIP to HipChat Webhook
+ * WordPress VIP to HipChat Deploy Webhook
  * 
  * Converts a web-hook request from WordPress VIP to an API call to HipChat for notification delivery.
  * 
